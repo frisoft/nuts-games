@@ -1,0 +1,164 @@
+/* line 1, ../../app/assets/stylesheets/style.scss.erb */
+body {
+  mrgin: 0;
+  background-color: white;
+}
+
+/* line 6, ../../app/assets/stylesheets/style.scss.erb */
+body * {
+  font-family: "Open Sans", sans-serif;
+  text-shadow: silver 0px 1px 2px;
+}
+
+/* line 11, ../../app/assets/stylesheets/style.scss.erb */
+#page {
+  width: 978px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: white;
+}
+
+/* line 18, ../../app/assets/stylesheets/style.scss.erb */
+#header {
+  height: 325px;
+  background: transparent url(/assets/sfondo-header.png) no-repeat center top;
+}
+
+/* line 24, ../../app/assets/stylesheets/style.scss.erb */
+#site-title {
+  float: left;
+}
+
+/* line 28, ../../app/assets/stylesheets/style.scss.erb */
+#site-title h1 {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+/* line 33, ../../app/assets/stylesheets/style.scss.erb */
+#logo-bar {
+  text-align: right;
+  float: right;
+}
+
+/* line 38, ../../app/assets/stylesheets/style.scss.erb */
+.separator {
+  clear: both;
+}
+
+/* line 42, ../../app/assets/stylesheets/style.scss.erb */
+#menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  background: transparent url(../images/sfondo-menu.png) no-repeat center top;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  color: white;
+}
+
+/* line 55, ../../app/assets/stylesheets/style.scss.erb */
+#menu a {
+  margin-top: 12px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* line 61, ../../app/assets/stylesheets/style.scss.erb */
+#menu span.menu-space {
+  background: transparent url(/assets/menu-space.png) no-repeat center top;
+  display: inline-block;
+  height: 50px;
+  width: 20px;
+}
+
+/* line 69, ../../app/assets/stylesheets/style.scss.erb */
+#content {
+  min-height: 400px;
+  padding: 20px;
+}
+
+/* line 74, ../../app/assets/stylesheets/style.scss.erb */
+#content h1 {
+  margin-top: 0px;
+}
+
+/* line 78, ../../app/assets/stylesheets/style.scss.erb */
+.box-left {
+  float: left;
+  width: 500px;
+  display: block;
+  padding-top: 50px;
+}
+
+/* line 84, ../../app/assets/stylesheets/style.scss.erb */
+.box-right {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 400px;
+}
+
+/* line 91, ../../app/assets/stylesheets/style.scss.erb */
+.app-title {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* line 98, ../../app/assets/stylesheets/style.scss.erb */
+#footer {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+
+/* line 105, ../../app/assets/stylesheets/style.scss.erb */
+#support-form fieldset {
+  border: 0px;
+}
+
+/* line 108, ../../app/assets/stylesheets/style.scss.erb */
+#support-form ul {
+  list-style-type: none;
+}
+
+/* line 111, ../../app/assets/stylesheets/style.scss.erb */
+#support-form ul li {
+  padding-top: 6px;
+}
+
+/* line 114, ../../app/assets/stylesheets/style.scss.erb */
+#support-form label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+/* line 119, ../../app/assets/stylesheets/style.scss.erb */
+#support-form input {
+  margin-left: 0px;
+}
+
+/* line 122, ../../app/assets/stylesheets/style.scss.erb */
+#support-form textarea {
+  width: 500px;
+  height: 100px;
+}
+
+/* line 127, ../../app/assets/stylesheets/style.scss.erb */
+.field_with_errors {
+  display: inline;
+}
+
+/* line 131, ../../app/assets/stylesheets/style.scss.erb */
+.formError {
+  margin-left: 210px;
+  color: red;
+}
